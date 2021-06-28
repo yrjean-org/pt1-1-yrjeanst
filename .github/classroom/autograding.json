@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "",
+      "run": "python main.c",
+      "input": "3\r\n5",
+      "output": "a = 3\r\nb = 5\r\na * b =  15",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
